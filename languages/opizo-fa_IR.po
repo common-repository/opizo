@@ -1,0 +1,316 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Opizo\n"
+"POT-Creation-Date: 2018-06-10 15:18+0430\n"
+"PO-Revision-Date: 2018-06-10 15:20+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: opizo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-opizo-admin.php:125
+msgid ""
+"Delete Link?\n"
+"This link only delete from wordpress and still exist in your panel in Opizo."
+"com"
+msgstr ""
+"لینک حذف شود؟\n"
+"این لینک فقط از پست شما حذف می شود و در سایت نمایش داده  نمی شود ولی در پنل "
+"شما در اپیزو باقی می ماند"
+
+#: admin/class-opizo-admin.php:126
+msgid "Cancel shrinking?"
+msgstr "کوتاه کردن لینک های این پست لغو شود؟"
+
+#: admin/class-opizo-admin.php:158
+msgid "Opizo Settings"
+msgstr "تنظیمات"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: admin/class-opizo-admin.php:159
+msgid "Opizo"
+msgstr "اپیزو"
+
+#: admin/class-opizo-admin.php:162 admin/partials/opizo-admin-shrink.php:28
+#: admin/partials/opizo-admin-shrink.php:38
+msgid "Shrink"
+msgstr "کوتاه کردن لینک"
+
+#: admin/class-opizo-admin.php:162
+msgid "Shrink Link"
+msgstr "کوتاه کردن لینک"
+
+#: admin/class-opizo-admin.php:164
+msgid "Shrink Old Posts"
+msgstr "کوتاه کردن لینکهای پست های قدیمی"
+
+#: admin/class-opizo-admin.php:166
+msgid "Shrinked URLs"
+msgstr "لینک های کوتاه شده"
+
+#: admin/class-opizo-admin.php:417
+msgid "Shrink URLs"
+msgstr "کوتاه کردن لینک ها"
+
+#: admin/class-opizo-admin.php:421
+msgid "Shrinked URLs of this post"
+msgstr "لینک های کوتاه شده این پست"
+
+#: admin/class-opizo-admin.php:436
+msgid "Shrink urls in content?"
+msgstr "کوتاه کردن لینک ها؟"
+
+#: admin/class-opizo-admin.php:438 admin/partials/opizo-admin-display.php:30
+msgid ""
+"Shrinking urls not change post content, only replace urls via shrinked link "
+"on post view"
+msgstr ""
+"با کوتاه کردن لینک ها، محتوای پست شما تغییری نخواهد کرد، تنها در زمان نمایش "
+"پست، آدرس های اصلی با آدرس کوتاه شده جایگزین می شود."
+
+#: admin/class-opizo-admin.php:445
+#, php-format
+msgid "Please enter valid API code in <a href='%s'>Setting Page</a> "
+msgstr ""
+"برای استفاده از این ابزار لطفا کد API را در <a href='%s'>بخش تنظیمات</a> "
+"وارد کنید."
+
+#: admin/class-opizo-admin.php:468
+msgid "Shrinked URLs of this post:"
+msgstr "لینک های کوتاه شده این پست:"
+
+#: admin/class-opizo-admin.php:633
+msgid "Opizo Status"
+msgstr "آمار آپیزو"
+
+#: admin/class-opizo-admin.php:687
+msgid "Earning: %y"
+msgstr "درآمد : %y"
+
+#: admin/class-opizo-admin.php:726
+msgid "Earning from links"
+msgstr "درآمد لینک ها"
+
+#: admin/class-opizo-admin.php:729
+msgid "Earning from referral"
+msgstr "درآمد از زیرمجموعه ها"
+
+#: admin/class-opizo-admin.php:797
+#, php-format
+msgid ""
+"Statics not allowed, login to your <a href='%s' target='_blank'>Opizo "
+"account</a> and change permission of API key."
+msgstr ""
+"اجازه مشاهده آمار ندارید. برای نمایش آمار وارد <a href='%s' "
+"target='_blank'>پنل خود در اپیزو</a> شوید، و مجوزهای API را تغییر دهید."
+
+#: admin/class-opizo-admin.php:825
+msgid "Shrink links by Opizo"
+msgstr "کوتاه کردن لینک ها با اپیزو"
+
+#: admin/class-opizo-admin.php:873
+#, php-format
+msgid ""
+"%s post(s) add to \"<a href='%s'>Shrink Old Post</a>\" list, after select "
+"desired posts, go to \"<a href='%s'>Shrink Old Post</a>\" page and press "
+"\"Start Shrinking\" Or <a href='%s'>Start Shrinking Now</a>"
+msgstr ""
+"%s پست به لیست \"<a href='%s'>کوتاه کردن لینک های پست های قدیمی</a>\" اضافه "
+"شد. پست های موردنظر خود را انتخاب کنید و سپس به صفحه \"<a href='%s'>کوتاه "
+"کردن لینک های پست های قدیمی</a>\" بروید و دکمه \"شروع کوتاه کردن\" را بزنید "
+"و یا اگر قصد انتخاب پست دیگری ندارید، همین الان فرآیند <a href='%s'>کوتاه "
+"کردن لینک های پست های قدیمی را شروع کنید</a>"
+
+#: admin/partials/opizo-admin-display.php:18
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+#: admin/partials/opizo-admin-display.php:32
+msgid ""
+"By deleting link from wordpress, shrinked URL still exist in your panel at "
+"Opizo.com"
+msgstr ""
+"با حذف لینک کوتاه شده از پست های سایت خود، لینک کوتاه شده در پنل شما در "
+"اپیزو باقی می ماند"
+
+#: admin/partials/opizo-admin-display.php:34
+msgid ""
+"For shrinking URLs in old posts, go to Post lists, select desired posts then "
+"select \"Shrink links by Opizo\" from Bulk Actions, then go to \"Shrink Old "
+"Posts\" page and press \"Start Shrinking\" button."
+msgstr ""
+"برای کوتاه کردن لینک های موجود در پست های قدیمی، به لیست پست های سایت خود "
+"بروید و پست های موردنظر را انتخاب کنید، سپس از قسمت \"کارهای دسته جمعی\"، "
+"گزینه \"کوتاه کردن لینک ها با اپیزو\" را انتخاب کنید. سپس به صفحه \"کوتاه "
+"کردن لینکهای پست های قدیمی\" برگردید و دکمه شروع را بزنید."
+
+#: admin/partials/opizo-admin-display.php:35
+#: admin/partials/opizo-admin-old-post-shrinkener.php:66
+msgid "Image Guide"
+msgstr "راهنمای تصویری"
+
+#: admin/partials/opizo-admin-display.php:58
+msgid "Active Opizo Shortener"
+msgstr "فعال کردن کوتاه کننده لینک"
+
+#: admin/partials/opizo-admin-display.php:66
+#, php-format
+msgid ""
+"You can simply active or deactive plugin.<br />This option is not affect on "
+"<a href='%s'>Shrink Link</a> page."
+msgstr ""
+"به راحتی کوتاه کننده را فعال یا غیرفعال کنید.<br />این گزینه روی صفحه <a "
+"href='%s'>کوتاه کردن لینک</a> تاثیر ندارد."
+
+#: admin/partials/opizo-admin-display.php:74
+msgid "API Key"
+msgstr "کد API"
+
+#: admin/partials/opizo-admin-display.php:82
+#, php-format
+msgid ""
+"This code used to connect your wordpress site to <a href='%s' "
+"target='_blank'>Opizo link shortener</a> service.<br />For generate and get "
+"your own api code, login to your <a target='_blank' href='%s'>Opizo "
+"dashboard</a> and from <a target='_blank' href='%s'>API</a> section, make "
+"new one."
+msgstr ""
+"این کد برای اتصال سایت وردپرسی شما به <a href='%s' target='_blank'>سرویس "
+"کوتاه کننده لینک اپیزو</a> استفاده می شود. برای دریافت  این کد وارد <a "
+"target='_blank' href='%s'>پنل کاربری</a> خود در سایت اپیزو  شوید، و از قسمت "
+"<a target='_blank' href='%s'>API</a> کد خود را دریافت کنید."
+
+#: admin/partials/opizo-admin-display.php:90
+msgid "Domains"
+msgstr "دامنه ها"
+
+#: admin/partials/opizo-admin-display.php:99
+msgid ""
+"If you want shrink links from only certain domains, enter domains in this "
+"filed(comma separated)<br/>(for example: uploadboy.com,cdn.server.net)"
+msgstr ""
+"اگر می خواهید لینک ها از دامنه های مشخصی کوتاه شوند، دامنه ها را در این فیلد "
+"وارد کنید و هر دامنه را با کاما (, انگلیسی) از هم جدا کنید. (برای مثال: "
+"uploadboy.com,cdn.server.net)"
+
+#: admin/partials/opizo-admin-display.php:107
+msgid "Post types"
+msgstr "نوع پست ها"
+
+#: admin/partials/opizo-admin-display.php:127
+msgid "You can use link shortener service in post types that you want."
+msgstr ""
+"می توانید سرویس کوتاه کردن لینک را در پست های مورد نظر خود فعال یا غیر فعال "
+"کنید."
+
+#: admin/partials/opizo-admin-display.php:132
+msgid "Save all changes"
+msgstr "ذخیره تنظیمات"
+
+#: admin/partials/opizo-admin-old-post-shrinkener.php:48
+#: admin/partials/opizo-admin-shrinked-urls.php:32
+msgid "Previous"
+msgstr "قبل"
+
+#: admin/partials/opizo-admin-old-post-shrinkener.php:49
+#: admin/partials/opizo-admin-shrinked-urls.php:33
+msgid "Next"
+msgstr "بعد"
+
+#: admin/partials/opizo-admin-old-post-shrinkener.php:65
+msgid ""
+"For shrinking URLs in old posts, go to Post lists, select desired posts then "
+"select \"Shrink links by Opizo\" from Bulk Actions, then return this page "
+"and press \"Start Shrinking\" button."
+msgstr ""
+"برای کوتاه کردن لینک های موجود در پست های قدیمی، به لیست پست های سایت خود "
+"بروید و پست های موردنظر را انتخاب کنید، سپس از قسمت \"کارهای دسته جمعی\"، "
+"گزینه \"کوتاه کردن لینک ها با اپیزو\" را انتخاب کنید. سپس به صفحه \"کوتاه "
+"کردن لینکهای پست های قدیمی\" برگردید و دکمه شروع را بزنید."
+
+#: admin/partials/opizo-admin-old-post-shrinkener.php:86
+msgid "Stop"
+msgstr "توقف"
+
+#: admin/partials/opizo-admin-old-post-shrinkener.php:87
+msgid "Don't close this page, wait for complete"
+msgstr "تا پایان فرآیند کوتاه کردن لینک، این صفحه را نبندید"
+
+#: admin/partials/opizo-admin-old-post-shrinkener.php:93
+#: admin/partials/opizo-admin-old-post-shrinkener.php:100
+msgid "Start Shrinking"
+msgstr "شروع کوتاه کردن"
+
+#: admin/partials/opizo-admin-old-post-shrinkener.php:112
+msgid "Post title"
+msgstr "عنوان پست"
+
+#: admin/partials/opizo-admin-old-post-shrinkener.php:136
+msgid "There is no post to shrink"
+msgstr "پستی برای کوتاه کردن لینک ها وجود ندارد"
+
+#: admin/partials/opizo-admin-shrink.php:45
+msgid "Shrinked Links:"
+msgstr "لینکهای کوتاه شده:"
+
+#: admin/partials/opizo-admin-shrink.php:54
+msgid "Shrink new links"
+msgstr "کوتاه کردن لینک جدید"
+
+#: admin/partials/opizo-admin-shrinked-urls.php:55
+msgid "Post Title"
+msgstr "عنوان پست"
+
+#: admin/partials/opizo-admin-shrinked-urls.php:56
+msgid "Shrinked url"
+msgstr "لینکهای کوتاه شده"
+
+#: admin/partials/opizo-admin-shrinked-urls.php:57
+msgid "Original url"
+msgstr "آدرس اصلی"
+
+#. Plugin URI of the plugin/theme
+msgid "http://opizo.com/page/view/opizo_wp_plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Opizo Link Shortener and Make money system from Links and URLs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://opizo.com"
+msgstr "http://opizo.com"
+
+#~ msgid "Tutorial"
+#~ msgstr "آموزش تصویری"
+
+#~ msgid "Start"
+#~ msgstr "شروع"
+
+#~ msgid ""
+#~ "For shrink urls in old post, edit post and select 'Shrink urls in "
+#~ "content?', then hit update."
+#~ msgstr ""
+#~ "برای کوتاه کردن لینک ها در پست های قدیمی، کافیست آن پست را ویرایش کنید "
+#~ "سپس گزینه 'کوتاه کردن لینک ها؟' را تیک بزنید و پست را ذخیره کنید."
+
+#~ msgid "Shrink urls and replace via Opizo short url in content?"
+#~ msgstr ""
+#~ "با انتخاب این گزینه تمام لینک های موجود در متن کوتاه می شوند. آبا مطمئنید؟"
+
+#~ msgid "Opizo link shortener service for wordpress"
+#~ msgstr "سرویس کسب درآمد از لینک کوتاه اپیزو برای وردپرس"
